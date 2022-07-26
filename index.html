@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarWars Teste Osas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="fullpage">
+    <div class="row">
+        <div class="card">
+            <h1>StarWars API - Teste Osas</h1>
+            <button class="button" onclick="returnApi()"> Clique e veja os Planetas</button>
+            <hr>
+            <div class="container">
+                <h2 id="name">Nome</h2>
+                <h4 id="rotation_period">Período de rotação:</h4>
+                <h4 id="orbital_period">Período orbital:</h4>
+                <h4 id="diameter">Diâmetro</h4>
+                <h4 id="climate">Clima:</h4>
+                <h4 id="gravity">Gravidade:</h4>
+                <h4 id="terrain">Terreno:</h4>
+                <h4 id="surface_water">Água da superfície:</h4>
+                <h4 id="population">População:</h4>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js" integrity="sha512-odNmoc1XJy5x1TMVMdC7EMs3IVdItLPlCeL5vSUPN2llYKMJ2eByTTAIiiuqLg+GdNr9hF6z81p27DArRFKT7A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
